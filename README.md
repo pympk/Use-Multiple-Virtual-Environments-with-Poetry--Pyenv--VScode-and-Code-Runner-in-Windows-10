@@ -41,7 +41,7 @@ These are my notes while learning to use multiple virtual environments with Poet
 
 ## Install poetry
 
-> Python is needed to install poetry, set global python version form terminal:
+> Python is needed to install poetry, set global python version from terminal:
 >
 > > \>pyenv global 3.7.9
 >
@@ -162,7 +162,7 @@ These are my notes while learning to use multiple virtual environments with Poet
 > Test jupyter notebook file:
 >
 > > In folder py379, create a new file test_venv.ipynb and paste codes in [test_venv](#test_venv) into a cell  
-> > Click the icon (looks like a phone) on upper right and select kernel in ~\py379\\.venv\Scripts\python.exe  
+> > Click the icon (looks like a phone) on the upper right and the select kernel in ~\py379\\.venv\Scripts\python.exe  
 > > Run test_venv.ipynb
 > > Output's python, pandas and numpy versions should match versions in pyproject.toml
 
