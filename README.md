@@ -71,6 +71,16 @@ These are my notes while learning to use multiple virtual environments with Poet
 >
 > > \>poetry config --list
 
+## [Poetry bug: "expected string or bytes-like object" on poetry install](https://github.com/python-poetry/poetry/issues/3628)
+
+> What worked for me:
+>
+> > poetry env list --full-path  
+> > in my case, path was ~\.venv (Activated).  
+> > rename folder to ~\.venv*
+> > poetry update
+> > delete folder ~\.venv* after poetry update
+
 ## Create virtual environment for python 3.7.9 with specific version of pandas and numpy
 
 > [Poetry documentation](https://python-poetry.org/docs/)  
