@@ -79,7 +79,7 @@ These are my notes while learning to use multiple virtual environments with Poet
 > > in my case, path was ~\\.venv (Activated).  
 > > rename folder to ~\\.venv\_  
 > > poetry update  
-> > after poetry update, delete folder ~\\.venv\_
+> > after poetry updated, delete folder ~\\.venv\_
 
 ## Create virtual environment for python 3.7.9 with specific version of pandas and numpy
 
