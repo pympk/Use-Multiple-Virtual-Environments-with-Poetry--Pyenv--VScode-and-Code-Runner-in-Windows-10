@@ -84,7 +84,7 @@ These are my notes while learning to use multiple virtual environments with Poet
 ## Create virtual environment for python 3.7.9 with specific version of pandas and numpy
 
 > [Poetry documentation](https://python-poetry.org/docs/)  
-> Poetry uses python to create the virtual environment for python. The two python versions should be the same.
+> Poetry uses python (e.g. python 3.7.9) to create the virtual environment for python (e.g. python 3.7.9). The two python versions should be the same (e.g. use python 3.7.9 to create virtual environment for python 3.7.9).
 >
 > Create python 3.7.9 virtual environment:
 >
