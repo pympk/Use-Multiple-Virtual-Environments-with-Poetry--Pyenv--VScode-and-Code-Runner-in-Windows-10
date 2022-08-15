@@ -161,12 +161,18 @@ These are my notes while learning to use multiple virtual environments with Poet
 
 ## Use virtual environments for python 3.7.9
 
+> Activate poetry shell
+>
+> > From terminal, change directory to folder py379
+> >
+> > > \>poetry shell
+>
 > Test python file:
 >
 > > In folder py379, create a new file test_venv.py with the codes in [test_venv](#test_venv)  
 > > Open Command Palette  
 > > Select python interpreter in ~\py379\\.venv\Scripts\python.exe  
-> > Run test_venv.py with code-runner(Ctrl+Alt+N)
+> > Run test_venv.py with code-runner(Ctrl+Alt+N)  
 > > Output's python, pandas and numpy versions should match versions in pyproject.toml
 >
 > Test jupyter notebook file:
@@ -180,9 +186,13 @@ These are my notes while learning to use multiple virtual environments with Poet
 
 > Same process as "Use virtual environments for python 3.7.9", except:
 >
+> > From terminal, change directory to folder py390
+> >
+> > > \>poetry shell
+>
 > > Create test_venv.py and test_venv.ipynb in folder py390  
-> > Select python interpreter in ~\py390\\.venv\Scripts\python.exe  
-> > Select kernel in ~\py390\\.venv\Scripts\python.exe
+> >  Select python interpreter in ~\py390\\.venv\Scripts\python.exe  
+> >  Select kernel in ~\py390\\.venv\Scripts\python.exe
 
 ## Remove python 3.9.0 virtual environment and the associated import modules
 
